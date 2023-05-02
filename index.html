@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food</title>
+
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- swiper css link -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+
+    <!-- font awesome -->
+    <link rel="stylesheet" href="./Fontawesome_v6/Fontawesome_v6/css/all.css">
+</head>
+
+<body>
+
+    <!-- header section start  -->
+
+    <header>
+        <a href="#" class="logo"><i class="fa-solid fa-utensils"></i>resto.</a>
+        <nav class="navbar">
+            <a class="active" href="#home">home</a>
+            <a href="#dishes">dishes</a>
+            <a href="#about">about</a>
+            <a href="#menu">menu</a>
+            <a href="#review">review</a>
+            <a href="#order">order</a>
+        </nav>
+        <div class="icons">
+            <i class="fa-solid fa-bars" id="menu-bars"></i>
+            <i class="fa-regular fa-magnifying-glass" id="search-icon"></i>
+            <a href="#" class="fa-solid fa-heart "></a>
+            <a href="#" class="fa-solid fa-cart-shopping"></a>
+        </div>
+
+    </header>
+
+    <!-- header section end  -->
+
+    <!-- search form -->
+    <div action="" id="search-form">
+        <input type="search" placeholder="Search here..." name="" id="search-box">
+        <label class="fa-regular fa-magnifying-glass"></label>
+        <i class="fa-sharp fa-light fa-xmark" id="close"></i>
+    </div>
+
+    <!-- home section starts -->
+    <section class="home" id="home">
+
+        <div class="swiper home-slider">
+
+            <div class="swiper-wrapper wrapper">
+
+                <div class="swiper-slide slide">
+                    <div class="content">
+                        <span>our special dish</span>
+                        <h3>Banh mi</h3>
+                        <p>"The dish is a Vietnamese food, with a crispy baguette on the outside, soft filling inside."</p>
+                        <a href="#" class="btn">order now</a>
+                    </div>
+                    <div class="image">
+                        <img src="./images/banhmi.png" alt="">
+                    </div>
+                </div>
+
+                <div class="swiper-slide slide">
+                    <div class="content">
+                        <span>our special dish</span>
+                        <h3>ga ran</h3>
+                        <p>"Fried chicken is chicken that's coated in seasoned flour or batter and deep-fried until crispy. It's a beloved dish in many countries."</p>
+                        <a href="#" class="btn">order now</a>
+                    </div>
+                    <div class="image">
+                        <img src="./images/ga-ran.png" alt="">
+                    </div>
+                </div>
+
+                <div class="swiper-slide slide">
+                    <div class="content">
+                        <span>our special dish</span>
+                        <h3>nem cuon</h3>
+                        <p>"Vietnamese nem cuốn is a rice paper roll filled with fresh vegetables, herbs, and meat or seafood, served with a fish sauce-based dipping sauce. It's a popular appetizer or light meal in Vietnamese cuisine. </p>
+                        <a href="#" class="btn">order now</a>
+                    </div>
+                    <div class="image">
+                        <img src="./images/nemcuon.png" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-pagination"></div>
+        </div>
+    </section>
+    <!-- home section end -->
+
+    <!-- dishes section starts -->
+    <section class="dishes" id="dishes">
+        <h3 class="sub-heading"> our dishes</h3>
+        <h1 class="heading"> popular dishes</h1>
+
+        <div class="box-container" id="box-food"></div>
+
+    </section>
+    <!-- dishes section end -->
+
+    <!-- about section start -->
+    <section class="about" id="about">
+        <h3 class="sub-heading"> about us</h3>
+        <h1 class="heading"> why choose us?</h1>
+
+        <div class="row">
+
+            <div class="image">
+                <img src="./images/chocolate-ice-cream.png" alt="">
+            </div>
+
+            <div class="content">
+                <h3>best food in the country</h3>
+                <p>Kem is a popular Vietnamese dessert similar to ice cream, made with milk, cream, sugar, and various flavorings. It can be served as a soft serve or frozen and scooped into bowls or cones, and is enjoyed by people of all ages.</p>
+                <div class="icons-container">
+                    <div class="icons">
+                        <i class="fa-solid fa-truck-fast"></i>
+                        <span>free delivery</span>
+                    </div>
+
+                    <div class="icons">
+                        <i class="fa-solid fa-dollar-sign"></i>
+                        <span>easy payments</span>
+                    </div>
+
+                    <div class="icons">
+                        <i class="fa-solid fa-headset"></i>
+                        <span>24/7 service</span>
+                    </div>
+                </div>
+                <a href="#" class="btn">learn more</a>
+            </div>
+        </div>
+    </section>
+    <!-- about section end -->
+
+    <!-- menu section starts -->
+    <section class="menu" id="menu">
+        <h3 class="sub-heading"> our menu</h3>
+        <h1 class="heading"> today's speciality</h1>
+
+        <div class="box-container" id="box_menu"></div>
+    </section>
+    <!-- menu section end -->
+
+    <!-- review section starts -->
+    <section class="review" id="review">
+        <h3 class="sub-heading"> customer's review</h3>
+        <h1 class="heading"> what they say</h1>
+
+        <div class="swiper review-slider">
+
+            <div class="swiper-wrapper wrapper">
+
+                <div class="  swiper-slide slide">
+                    <i class="fa-solid fa-quote-right"></i>
+                    <div class="user">
+                        <img src="./images/user.jpg" alt="">
+                        <div class="user-info">
+                            <h3>Join deo</h3>
+                            <div class="starts">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star-half-stroke "></i>
+                            </div>
+                        </div>
+                    </div>
+                    <p>The service very good and food is delicious</p>
+                </div>
+
+                <div class="  swiper-slide slide">
+                    <i class="fa-solid fa-quote-right"></i>
+                    <div class="user">
+                        <img src="./images/user2.jpg" alt="">
+                        <div class="user-info">
+                            <h3>Join deo</h3>
+                            <div class="starts">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star-half-stroke "></i>
+                            </div>
+                        </div>
+                    </div>
+                    <p>I just want to say everything will be good</p>
+                </div>
+
+                <div class="  swiper-slide slide">
+                    <i class="fa-solid fa-quote-right"></i>
+                    <div class="user">
+                        <img src="./images/user3.jpg" alt="">
+                        <div class="user-info">
+                            <h3>Join deo</h3>
+                            <div class="starts">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star-half-stroke "></i>
+                            </div>
+                        </div>
+                    </div>
+                    <p>It's so good and I like it</p>
+                </div>
+
+                <div class="  swiper-slide slide">
+                    <i class="fa-solid fa-quote-right"></i>
+                    <div class="user">
+                        <img src="./images/user4.jpg" alt="">
+                        <div class="user-info">
+                            <h3>Join deo</h3>
+                            <div class="starts">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star-half-stroke "></i>
+                            </div>
+                        </div>
+                    </div>
+                    <p>I think you can come here to try food and drink right this</p>
+                </div>
+
+                <div class="  swiper-slide slide">
+                    <i class="fa-solid fa-quote-right"></i>
+                    <div class="user">
+                        <img src="./images/user4.jpg" alt="">
+                        <div class="user-info">
+                            <h3>Join deo</h3>
+                            <div class="starts">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star-half-stroke "></i>
+                            </div>
+                        </div>
+                    </div>
+                    <p>I think you can come here to try food and drink right this</p>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- review sections end -->
+
+    <!-- order section starts -->
+    <section class="order" id="order">
+        <h3 class="sub-heading"> order now </h3>
+        <h1 class="heading"> free and fast</h1>
+
+        <form action="">
+            <div class="inputBox">
+                <div class="input">
+                    <span>Your name</span>
+                    <input type="text" placeholder="enter your name">
+                </div>
+                <div class="input">
+                    <span>Your number</span>
+                    <input type="number" placeholder="enter your number">
+                </div>
+            </div>
+
+            <div class="inputBox">
+                <div class="input">
+                    <span>Your order</span>
+                    <input type="text" placeholder="enter food name">
+                </div>
+                <div class="input">
+                    <span>adtional food</span>
+                    <input type="test" placeholder="extra with food">
+                </div>
+            </div>
+
+            <div class="inputBox">
+                <div class="input">
+                    <span>How much</span>
+                    <input type="number" placeholder="how many orders">
+                </div>
+                <div class="input">
+                    <span>date and time</span>
+                    <input type="datetime-local">
+                </div>
+            </div>
+
+            <div class="inputBox">
+                <div class="input">
+                    <span>Your address</span>
+                    <textarea name="" placeholder="enter your address" id="" cols="30" rows="10"></textarea>
+                </div>
+                <div class="input">
+                    <span>your message</span>
+                    <textarea name="" placeholder="enter your message" id="" cols="30" rows="10"></textarea>
+                </div>
+            </div>
+
+            <input type="submit" value="order now" class="btn">
+        </form>
+    </section>
+
+    <!-- order section end-->
+
+    <!-- footer section starts -->
+    <section class="footer">
+
+        <div class="box-container">
+
+            <div class="box">
+                <h3>location</h3>
+                <a href="#">india</a>
+                <a href="#">japan</a>
+                <a href="#">USA</a>
+                <a href="#">vietnam</a>
+                <a href="#">france</a>
+            </div>
+
+            <div class="box">
+                <h3>quick links</h3>
+                <a href="#">home</a>
+                <a href="#">dishes</a>
+                <a href="#">about</a>
+                <a href="#">menu</a>
+                <a href="#">review</a>
+                <a href="#">order</a>
+            </div>
+
+            <div class="box">
+                <h3>contact infor</h3>
+                <a href="#">+039-090-9098</a>
+                <a href="#">+039-090-9098</a>
+                <a href="#">phamphuongngoc509@gmail.com</a>
+                <a href="#">phamphuongngoc509@gmail.com</a>
+                <a href="#">Quảng Ngãi</a>
+            </div>
+
+            <div class="box">
+                <h3>follow us</h3>
+                <a href="#">facebook</a>
+                <a href="#">instagram</a>
+                <a href="#">tiktok</a>
+                <a href="#">twiter</a>
+            </div>
+        </div>
+
+        <div class="credit">copyright @ 2023 by <span>Phạm Phương Ngọc</span></div>
+
+
+    </section>
+
+    <!-- footer section end -->
+    <div class="loader-container">
+        <img src="./images/loader-2_food.gif" alt="">
+
+    </div>
+
+    <!-- loader part -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js "></script>
+    <!-- custom js file link -->
+    <script src="js/script.js "></script>
+
+</body>
+
+</html>
+
+</html>
